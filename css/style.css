@@ -1,0 +1,79 @@
+/* Fonts
+----------------------------------------------------------------------------------------------------*/
+
+body{background-color: #f8f8f8;padding-top: 120px;font-family: Arial;  line-height: 1.3;color: #8E8E8E;}
+
+*:focus{outline: none!important}
+.container{min-width: 1170px!important;}
+a{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
+a:hover{text-decoration: none;}
+img{max-width: 100%}
+
+
+/*
+|------------------------------------------------------------------------------------
+| Commun css
+|------------------------------------------------------------------------------------
+*/
+h2.title{font-size: 18px; font-weight: bold;color: #313131;}
+h4.title{font-size: 15px; font-weight: bold;color: #A2A2A2;margin:10px 0 30px;}
+.box{background-color: #fff;padding: 15px;margin-bottom: 30px;border: 1px solid #D8D8D8;box-shadow: 0 5px 5px -4px rgba(0,0,0,0.5)}
+
+
+/*
+|------------------------------------------------------------------------------------
+| Header
+|------------------------------------------------------------------------------------
+*/
+#header .container{min-width: 90%!important; width: 90%!important}
+#header > .navbar{height: inherit;padding: 10px 0;background-color: #fff;border-bottom: 1px solid #CCCCCC; box-shadow: 0 2px 5px rgba(0,0,0,0.1)}
+#header ul{margin: 0;padding: 0;}
+#header a{color: #000;}
+#header .btn-primary{color: #fff;}
+
+#header .search-form{border: 1px solid #E6E6E6;padding: 5px;box-shadow: 0px 1px 1px #ccc inset}
+#header .search-form input[type="search"]{border: none;width: 430px;}
+#header .search-form button{border: none; background-color: transparent;padding: 0 10px;border-left: 1px solid #E6E6E6;}
+
+/*into*/
+section.into{margin-bottom: 30px;}
+section.into .container{color: #fff;padding: 20px 0;background-color: #262626;width: 900px!important;   min-width: initial!important;}
+section.into h1{text-align: center;font-size: 18px;margin: 0;}
+section.into a{color: #fff;}
+section.into .glyphicon{margin-right: 20px;font-size: 22px;}
+
+
+/*reseaux-premium*/
+section.reseaux-premium{font-size: 13px;}
+section.reseaux-premium article{margin-bottom: 20px;}
+section.reseaux-premium p{margin: 0;}
+section.reseaux-premium img{width: 100%;}
+section.reseaux-premium h5{margin-bottom: 0;}
+section.reseaux-premium h5 a{font-weight: bold;color: #6C9BE3;}
+section.reseaux-premium h3{font-size: 16px;font-weight: bold;color: #505050;margin-top: 0;}
+section.reseaux-premium .dernier-opportunites{border-left: 1px solid #F7F7F7;padding-left: 20px;}
+
+
+/*produit-la-une*/
+section.produit-la-une{font-size: 12px;}
+section.produit-la-une article{margin-bottom: 30px;}
+section.produit-la-une h4{font-weight: bold;}
+section.produit-la-une h5 a{font-weight: bold;}
+section.produit-la-une h6{margin: 0;}
+section.produit-la-une h6 strong{margin-top: 10px;display: inline-block;}
+section.produit-la-une p.date{margin-top: 5px;}
+section.produit-la-une .feature-img{margin-bottom: 10px;}
+section.produit-la-une .vue-partage{float: left}
+section.produit-la-une hr{margin: 0 0 10px;}
+section.produit-la-une a span.glyphicon{color: #8E8E8E;}
+
+
+
+/*
+|------------------------------------------------------------------------------------
+| Footer
+|------------------------------------------------------------------------------------
+*/
+#footer{font-size: 12px;margin-top: 60px;}
+#footer .wrapper{border-top: 1px solid #F1F1F1; padding-top: 8px;}
+
